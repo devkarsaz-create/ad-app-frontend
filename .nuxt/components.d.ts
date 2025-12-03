@@ -26,6 +26,7 @@ interface _GlobalComponents {
     'FormTextInput': typeof import("../components/FormTextInput.vue")['default']
     'HeroBillboard': typeof import("../components/HeroBillboard.vue")['default']
     'ProfileActivityItem': typeof import("../components/profile/ActivityItem.vue")['default']
+    'ProfilePerformanceChart': typeof import("../components/profile/PerformanceChart.vue")['default']
     'ProfileStatCard': typeof import("../components/profile/StatCard.vue")['default']
     'ProfileViewsChart': typeof import("../components/profile/ViewsChart.vue")['default']
     'ProfileNewAdPreview': typeof import("../components/profile/new/AdPreview.vue")['default']
@@ -70,6 +71,7 @@ interface _GlobalComponents {
     'LazyFormTextInput': LazyComponent<typeof import("../components/FormTextInput.vue")['default']>
     'LazyHeroBillboard': LazyComponent<typeof import("../components/HeroBillboard.vue")['default']>
     'LazyProfileActivityItem': LazyComponent<typeof import("../components/profile/ActivityItem.vue")['default']>
+    'LazyProfilePerformanceChart': LazyComponent<typeof import("../components/profile/PerformanceChart.vue")['default']>
     'LazyProfileStatCard': LazyComponent<typeof import("../components/profile/StatCard.vue")['default']>
     'LazyProfileViewsChart': LazyComponent<typeof import("../components/profile/ViewsChart.vue")['default']>
     'LazyProfileNewAdPreview': LazyComponent<typeof import("../components/profile/new/AdPreview.vue")['default']>
@@ -120,6 +122,7 @@ export const FormPrimaryButton: typeof import("../components/FormPrimaryButton.v
 export const FormTextInput: typeof import("../components/FormTextInput.vue")['default']
 export const HeroBillboard: typeof import("../components/HeroBillboard.vue")['default']
 export const ProfileActivityItem: typeof import("../components/profile/ActivityItem.vue")['default']
+export const ProfilePerformanceChart: typeof import("../components/profile/PerformanceChart.vue")['default']
 export const ProfileStatCard: typeof import("../components/profile/StatCard.vue")['default']
 export const ProfileViewsChart: typeof import("../components/profile/ViewsChart.vue")['default']
 export const ProfileNewAdPreview: typeof import("../components/profile/new/AdPreview.vue")['default']
@@ -164,6 +167,7 @@ export const LazyFormPrimaryButton: LazyComponent<typeof import("../components/F
 export const LazyFormTextInput: LazyComponent<typeof import("../components/FormTextInput.vue")['default']>
 export const LazyHeroBillboard: LazyComponent<typeof import("../components/HeroBillboard.vue")['default']>
 export const LazyProfileActivityItem: LazyComponent<typeof import("../components/profile/ActivityItem.vue")['default']>
+export const LazyProfilePerformanceChart: LazyComponent<typeof import("../components/profile/PerformanceChart.vue")['default']>
 export const LazyProfileStatCard: LazyComponent<typeof import("../components/profile/StatCard.vue")['default']>
 export const LazyProfileViewsChart: LazyComponent<typeof import("../components/profile/ViewsChart.vue")['default']>
 export const LazyProfileNewAdPreview: LazyComponent<typeof import("../components/profile/new/AdPreview.vue")['default']>
