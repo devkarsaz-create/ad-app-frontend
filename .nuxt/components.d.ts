@@ -28,6 +28,7 @@ interface _GlobalComponents {
     'ProfileActivityItem': typeof import("../components/profile/ActivityItem.vue")['default']
     'ProfileStatCard': typeof import("../components/profile/StatCard.vue")['default']
     'ProfileViewsChart': typeof import("../components/profile/ViewsChart.vue")['default']
+    'ProfileNewAdPreview': typeof import("../components/profile/new/AdPreview.vue")['default']
     'ProfileNewImageUploader': typeof import("../components/profile/new/ImageUploader.vue")['default']
     'ProfileNewStepper': typeof import("../components/profile/new/Stepper.vue")['default']
     'NuxtWelcome': typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']
@@ -71,6 +72,7 @@ interface _GlobalComponents {
     'LazyProfileActivityItem': LazyComponent<typeof import("../components/profile/ActivityItem.vue")['default']>
     'LazyProfileStatCard': LazyComponent<typeof import("../components/profile/StatCard.vue")['default']>
     'LazyProfileViewsChart': LazyComponent<typeof import("../components/profile/ViewsChart.vue")['default']>
+    'LazyProfileNewAdPreview': LazyComponent<typeof import("../components/profile/new/AdPreview.vue")['default']>
     'LazyProfileNewImageUploader': LazyComponent<typeof import("../components/profile/new/ImageUploader.vue")['default']>
     'LazyProfileNewStepper': LazyComponent<typeof import("../components/profile/new/Stepper.vue")['default']>
     'LazyNuxtWelcome': LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']>
@@ -120,6 +122,7 @@ export const HeroBillboard: typeof import("../components/HeroBillboard.vue")['de
 export const ProfileActivityItem: typeof import("../components/profile/ActivityItem.vue")['default']
 export const ProfileStatCard: typeof import("../components/profile/StatCard.vue")['default']
 export const ProfileViewsChart: typeof import("../components/profile/ViewsChart.vue")['default']
+export const ProfileNewAdPreview: typeof import("../components/profile/new/AdPreview.vue")['default']
 export const ProfileNewImageUploader: typeof import("../components/profile/new/ImageUploader.vue")['default']
 export const ProfileNewStepper: typeof import("../components/profile/new/Stepper.vue")['default']
 export const NuxtWelcome: typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']
@@ -163,6 +166,7 @@ export const LazyHeroBillboard: LazyComponent<typeof import("../components/HeroB
 export const LazyProfileActivityItem: LazyComponent<typeof import("../components/profile/ActivityItem.vue")['default']>
 export const LazyProfileStatCard: LazyComponent<typeof import("../components/profile/StatCard.vue")['default']>
 export const LazyProfileViewsChart: LazyComponent<typeof import("../components/profile/ViewsChart.vue")['default']>
+export const LazyProfileNewAdPreview: LazyComponent<typeof import("../components/profile/new/AdPreview.vue")['default']>
 export const LazyProfileNewImageUploader: LazyComponent<typeof import("../components/profile/new/ImageUploader.vue")['default']>
 export const LazyProfileNewStepper: LazyComponent<typeof import("../components/profile/new/Stepper.vue")['default']>
 export const LazyNuxtWelcome: LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']>

@@ -69,10 +69,7 @@
       <div v-if="currentStep === 4">
         <h2 class="text-2xl font-bold text-white mb-6">۴. بازبینی و انتشار</h2>
         <p class="text-brand-gray mb-4 text-sm">آخرین نگاه را به آگهی خود بیندازید. این همان چیزی است که کاربران می‌بینند.</p>
-        <!-- Ad Preview Component will go here -->
-        <div class="w-full h-96 border-2 border-gray-700 rounded-xl flex items-center justify-center">
-            <p class="text-brand-gray">پیش‌نمایش زنده آگهی اینجا قرار خواهد گرفت</p>
-         </div>
+        <ProfileNewAdPreview :form-data="formData" />
       </div>
 
       <!-- Navigation Buttons -->
