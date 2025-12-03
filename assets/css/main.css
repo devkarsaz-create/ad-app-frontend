@@ -1,0 +1,39 @@
+
+html, body, #__nuxt {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  color: #FFFFFF;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  overflow: hidden; /* Hide main scrollbar */
+}
+
+.scroll-container {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.scroll-section {
+  height: 100vh;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  position: relative;
+  overflow-y: auto;
+}
+
+/* Custom Scrollbar for sections */
+.scroll-section::-webkit-scrollbar {
+  width: 6px;
+}
+.scroll-section::-webkit-scrollbar-track {
+  background: #1C1C1E;
+}
+.scroll-section::-webkit-scrollbar-thumb {
+  background: #0A84FF;
+  border-radius: 3px;
+}
+.scroll-section::-webkit-scrollbar-thumb:hover {
+  background: #0056b3;
+}
